@@ -1,0 +1,83 @@
+
+
+.panel {
+  display: flex; /* Размещаем элементы в одну строку */
+  gap: 0px; /* Отступ между элементами */
+  justify-content: center; /* Выравниваем по центру по горизонтали */
+  background-color: rgba(48, 11, 39, 0.2); /* Цвет полосы с прозрачностью */
+  padding: 10px 0; /* Добавляем отступ сверху и снизу */
+
+ font-size: 25px;
+ 
+}
+
+.disp {
+  display: none;
+}
+
+.panel a {
+  color: rgb(84, 23, 107); /* Белый цвет текста для элементов */
+  text-decoration: none; /* Убираем подчеркивание */
+}
+
+.napravl {
+  width: 250px; /* Ширина левой панели */
+  background-color: #d7abf0;
+  padding: 2px; /* Отступ внутри панели */
+  border: 3px solid rgba(48, 11, 39, 0.2);
+  flex-direction: column; /* Выравнивание по вертикали */
+  height: auto;
+  font-size: 20px;
+
+}
+
+.napravl h1 {
+  margin-top: 0px;
+  color: #55104b; /* Цвет текста заголовка */
+  font-size: 1.2em; /* Размер шрифта заголовка */
+  margin-bottom: 12px; /* Отступ снизу заголовка */
+
+}
+
+.napravl ul {
+  list-style: none; /* Убираем маркеры списка */
+  padding: 0; /* Убираем отступ списка */
+
+}
+
+.napravl li {
+  margin-bottom: 15px; /* Отступ снизу элементов списка */
+}
+
+.napravl a {
+  color: #332d33; /* Цвет текста ссылок */
+  text-decoration: none; /* Убираем подчеркивание */
+
+}
+
+.ravn2{
+  flex-direction: column; /* Выравнивание по вертикали */
+}
+.ravn {
+  display: flex; /* Используем flexbox для контейнера */
+}
+
+
+.content1 {
+  margin-left: 20px; /* Отступ от левого элемента */
+}
+.news {
+  flex-grow: 1; 
+  width: 50%; 
+}
+.news2 {
+  margin-top: 100px;
+  display: flex;
+}
+.obvod {
+  border: 3px solid rgba(48, 11, 39, 0.2);
+}
+.survey{
+  background-color: #ebdddd; /* Цвет фона */
+  border: 3px solid rgba(48, 11, 39, 0.2);
+}
